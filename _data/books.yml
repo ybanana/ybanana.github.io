@@ -13,30 +13,21 @@
   startDate: 2022-12-16
   isCurrent: true
 
-- title: Sea of Tranquility
+- title: "Sea of Tranquility"
   author: Emily St. John Mandel
   summary: A brilliant book to make me think of colony India by UK in 1912, of Moon colony in 2201, of the pandemic emerged in 2201 and of simulation world in 2401.
   link: https://www.goodreads.com/book/show/58446227-sea-of-tranquility
   rating: ⭐⭐⭐⭐⭐
   completeDate: 2022-12-16
-
-- title: The Phoenix Project
-  author: Gene Kim
-  summary: \"The Phoenix Project is a best-selling business book that's told in narrative form. The book's characters reveal through their actions why it's so important for organizations to put security first and tear down the silos that have traditionally existed between development and operations teams.\"
-  link: https://amzn.to/3Ei4Dye
-  rating: ⭐⭐⭐⭐⭐
-  completeDate: 2022-05-21
+  
+- title: "Ada's Algorithm"
+  author: James Essinger
+  summary: A biography about Ada Lovelace, one of the worlds first programmers.
+  link: https://amzn.to/3s5oVDU
+  rating: ⭐⭐ - To be totally honest, it was pretty boring. I expected this book to cover more of the technical items behind her work and her involvement with Charles Babbages Difference and Analytical engine...but it seems more focused on genealogy, personal drama, and historical documentation of social interactions. A very small portion of the book actually covered what I had hoped. Though I think that's due to the lack of historical information available.
+  completeDate: 2021-02-01
 
 - title: "Algorithms to Live By: The Computer Science of Human Decisions"
   author: Brian Christian, Tom Griffiths
   summary: I've actually already "read" this via audio book, but I think it would be better as an actual physical book
   link: https://amzn.to/3ijrSgk
-
-- title: "Code: The Hidden Language of Computer Hardware and Software"
-  author: Charles Petzold
-  summary: This is probably one of my all time favorite books. I've read it at least twice, but it's been about 12 years since I last read it, so I think it's time to go through it again.
-  link: https://amzn.to/39y9OLu
-
-- title: "The Lean Startup"
-  author: Eric Ries
-  link: https://amzn.to/3dmYtRW
