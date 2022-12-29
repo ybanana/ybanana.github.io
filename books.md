@@ -26,7 +26,7 @@ description: Book reading progress, reviews and recommendations
     }
 </style>
 
-## Current book:
+## Current Reading:
 {% assign currentBooks = site.data.books | where: "isCurrent", true %}
 {% for book in currentBooks %}
 * [*{{ book.title }}*{% if book.author %} by {{ book.author }}{% endif %}]({{ book.link }}){:target="_blank"}
@@ -36,7 +36,7 @@ description: Book reading progress, reviews and recommendations
 {% assign currentYear = "now" | date: "%Y" | to_integer %}
 {% assign currentYearRecord = site.data.dates | where_exp: "item", "item.year == currentYear" %}
 
-## Past reviews and recommendations:
+## Read:
 {% assign pastBooks = site.data.books
         | where_exp: "item", "item.completeDate < currentYearRecord[0].start"
         | sort: "title"
