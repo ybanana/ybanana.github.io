@@ -33,24 +33,6 @@ description: Book reading progress, reviews and recommendations
 {% if book.summary %}  * {{ book.summary }}{% endif %}
 {% endfor %}
 
-<!--
-    What a mess...Jekyll does not handle dates very well. So I had to come up with this hack.
-    I created a .yml file with just start and "nextStart" dates. For some reason, Jekyll does
-    not have a way to convert a string to a date type, only the other way around. So I got around
-    that using the .yml data file.
-
-    Then I look up the date record corresponding to the current year and use those for filtering.
--->
-{% assign currentYear = "now" | date: "%Y" | to_integer %}
-{% assign currentYearRecord = site.data.dates | where_exp: "item", "item.year == currentYear" %}
-{% assign recentBooks = site.data.books
-        | where_exp: "item", "item.completeDate >= currentYearRecord[0].start"
-        | where_exp: "item", "item.completeDate < currentYearRecord[0].nextStart"
-        | sort: "completeDate" | reverse
-        | group_by_exp: "item", "item.completeDate | date: '%B'"
-%}
-{% if recentBooks.size > 0 %}
-
 ## Past reviews and recommendations:
 
 {% assign pastBooks = site.data.books
