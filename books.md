@@ -33,8 +33,10 @@ description: Book reading progress, reviews and recommendations
 {% if book.summary %}  * {{ book.summary }}{% endif %}
 {% endfor %}
 
-## Past reviews and recommendations:
+{% assign currentYear = "now" | date: "%Y" | to_integer %}
+{% assign currentYearRecord = site.data.dates | where_exp: "item", "item.year == currentYear" %}
 
+## Past reviews and recommendations:
 {% assign pastBooks = site.data.books
         | where_exp: "item", "item.completeDate < currentYearRecord[0].start"
         | sort: "title"
@@ -46,7 +48,6 @@ description: Book reading progress, reviews and recommendations
 {% endfor %}
 
 ## To Be Read:
-
 {% assign todoSorted = site.data.books
         | where_exp: "item", "item.isCurrent != true"
         | where_exp: "item", "item.completeDate == nil"
