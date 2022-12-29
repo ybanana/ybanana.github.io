@@ -50,17 +50,6 @@ description: Book reading progress, reviews and recommendations
         | group_by_exp: "item", "item.completeDate | date: '%B'"
 %}
 {% if recentBooks.size > 0 %}
-## Recently finished books:
-
-{% for month in recentBooks %}
-### {{ month.name | capitalize }}:
-{% for book in month.items %}
-* [*{{ book.title }}*{% if book.author %} by {{ book.author }}{% endif %}]({{ book.link }}){:target="_blank"}
-{% if book.rating %}  * My rating: {{ book.rating }}{% endif %}
-{% if book.summary %}  * Summary: {{ book.summary }}{% endif %}
-{% endfor %}
-{% endfor %}
-{% endif %}
 
 ## Past reviews and recommendations:
 
