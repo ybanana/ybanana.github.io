@@ -42,5 +42,5 @@ defaults:
       tags: Other
 
 header_pages:
-  - archive.html
+  - archive.md
   - books.md
