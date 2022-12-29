@@ -6,11 +6,11 @@
 #   isCurrent: bool - indicating currently reading
 #   completeDate: date of completion
 
-- title: Operations Anti-Patterns, DevOps Solutions
-  author: Jeffery D. Smith
-  summary: \"Operations Anti-Patterns, DevOps Solutions shows how to implement DevOps techniques in the kind of imperfect environments most developers work in. Part technology tutorial, part reference manual, and part psychology handbook, this practical guide shows you realistic ways to bring DevOps to your team when you don’t have the flexibility to make sweeping changes in organizational structure.\"
-  link: https://amzn.to/3Pqgvmz
-  startDate: 2022-07-10
+- title: Demon Copperhead
+  author: Barbara Kingsolver
+  summary: A boy named Damon but nickname is Demon Copperhead, whose name is similar to David Copperfield. His adventure, love and loss have been through the book, chpater by chapter.
+  link: https://www.goodreads.com/book/show/60194162-demon-copperhead
+  startDate: 2022-12-16
   isCurrent: true
 
 - title: The Unicorn Project
