@@ -74,7 +74,7 @@ description: Book reading progress, reviews and recommendations
 {% if book.summary %}  * Summary: {{ book.summary }}{% endif %}
 {% endfor %}
 
-## Todo List:
+## To Be Read:
 
 {% assign todoSorted = site.data.books
         | where_exp: "item", "item.isCurrent != true"
