@@ -64,8 +64,6 @@ In order to try and enforce a habit of reading daily, I'm making this a public p
 {% endfor %}
 {% endif %}
 
-----
-
 ## Past reviews and recommendations:
 
 {% assign pastBooks = site.data.books
