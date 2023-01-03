@@ -33,9 +33,11 @@ description: Book reading progress, reviews and recommendations
 {% if book.summary %}  * {{ book.summary }}{% endif %}
 {% endfor %}
 
+{% assign currentYearRecord = site.data.dates | where_exp: "item", "item.year == 2023" %}
+
 ## Read:
 {% assign pastBooks = site.data.books
-        | where_exp: "item", "item.completeDate < 2022-12-12"
+        | where_exp: "item", "item.completeDate < currentYearRecord[0].start"
         | sort: "title"
 %}
 {% for book in pastBooks %}
