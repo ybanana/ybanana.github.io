@@ -19,13 +19,14 @@ description: Book reading progress, reviews and recommendations
 
 ## Read:
 {% assign pastBooks = site.data.books
-        | where_exp: "item", "item.completeDate < 2023"
+        | where: "isRead", true %
         | sort: "title"
 %}
 {% for book in pastBooks %}
 * [*{{ book.title }}*{% if book.author %} by {{ book.author }}{% endif %}]({{ book.link }}){:target="_blank"}
 {% if book.rating %}  * My rating: {{ book.rating }}{% endif %}
 {% if book.summary %}  * Summary: {{ book.summary }}{% endif %}
+{% if book.completeDate %}  * Complete date: {{ book.completeDate }}{% endif %}
 {% endfor %}
 
 ## To Be Read:
