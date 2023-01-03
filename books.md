@@ -8,22 +8,6 @@ description: Book reading progress, reviews and recommendations
     li {
         margin-bottom: 5px;
     }
-
-    /* non-existent days - MonthNum+1 */
-    /* feb */
-    table tbody tr:nth-child(29) td:nth-child(3), /* jekyll code to make conditional if leap year? lol */
-    table tbody tr:nth-child(30) td:nth-child(3),
-    table tbody tr:nth-child(31) td:nth-child(3),
-    /* apr */
-    table tbody tr:nth-child(31) td:nth-child(5),
-    /* jun */
-    table tbody tr:nth-child(31) td:nth-child(7),
-    /* aug */
-    table tbody tr:nth-child(31) td:nth-child(10),
-    /* nov */
-    table tbody tr:nth-child(31) td:nth-child(12) {
-        background-color: #cccccc;
-    }
 </style>
 
 ## Current Reading:
@@ -33,11 +17,9 @@ description: Book reading progress, reviews and recommendations
 {% if book.summary %}  * {{ book.summary }}{% endif %}
 {% endfor %}
 
-{% assign currentYearRecord = site.data.dates | where_exp: "item", "item.year == 2023" %}
-
 ## Read:
 {% assign pastBooks = site.data.books
-        | where_exp: "item", "item.completeDate < currentYearRecord[0].start"
+        | where_exp: "item", "item.completeDate < 2023"
         | sort: "title"
 %}
 {% for book in pastBooks %}
