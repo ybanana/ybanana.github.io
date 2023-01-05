@@ -47,5 +47,5 @@ plugins:
 
 header_pages:
   - archive.md
-  - books.md
+#  - books.md
   - SwedishLearning_Ove.md
