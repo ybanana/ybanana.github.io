@@ -1,2 +1,9 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+main h1, main h2, main h3, main h4 {
+    font-weight: $light-font-weight;
+  }
+  
+  h3 > .post-link {
+    margin: 0px;
+  }
