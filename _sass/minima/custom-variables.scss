@@ -2,7 +2,7 @@
 /* Override theme defaults */
 $base-font-family: "Fira Sans", sans-serif !default;
 $base-font-size:   16px !default;
-$base-font-weight: 200 !default;
+$base-font-weight: 0,200 !default;
 $small-font-size:  $base-font-size * 0.8 !default;
 $base-line-height: 1.5 !default;
 
@@ -10,8 +10,9 @@ $text-color:       #3c484e !default;
 $background-color: #fdfdfd !default;
 $grey-color:       #828282 !default;
 
-
+/*
 $code-font-family: "Fira Sans", monospace !default;
 $code-font-weight: 300;
 $code-font-size:   90%;
 $code-line-height: 1.4;
+*/
