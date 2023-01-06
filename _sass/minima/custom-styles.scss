@@ -1,9 +1,88 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
-main h1, main h2, main h3, main h4 {
+
+main p {
+    text-align: justify;
+  }
+  
+  main.book-style p {
+    text-align: justify;
+    text-indent: 1.5em;
+  }
+  
+  main.book-style p:first-of-type {
+    text-indent: 0em;
+  }
+  
+  main h1, main h2, main h3, main h4 {
     font-weight: $light-font-weight;
   }
   
   h3 > .post-link {
     margin: 0px;
+  }
+  
+  strong {
+    font-weight: $bold-font-weight;
+  }
+  
+  figure {
+    font-size: $small-font-size;
+  }
+  
+  a, a:visited {
+    color: $link-color;
+  }
+  
+  .meta {
+    color: $grey-color-light;
+    font-size: $small-font-size;
+  }
+  
+  .social-media-list {
+      font-size: $small-font-size
+  }
+  
+  .footnote::before {
+      content: "[";
+  }
+  
+  .footnote::after {
+      content: "]";
+  }
+  
+  .footnotes {
+      font-size: $small-font-size;
+  }
+  
+  pre, code {
+    background-color: $code-bg-color;
+    font-family: $code-font-family;
+    font-size: $code-font-size;
+    font-weight: $code-font-weight;
+    line-height: $code-line-height;
+  }
+  
+  .highlighter-rouge .highlight {
+      background-color: $code-bg-color;
+  }
+  
+  .highlight .o, .highlight .k {
+    font-weight: $code-bold-weight !important;
+  }
+  
+  .rouge-table {
+      border: 0px;
+      margin: 0px;
+  }
+  
+  .rouge-table td {
+      border: 0px;
+      padding: 0px;
+  }
+  
+  .rouge-table td pre {
+      border: 0px;
+      margin: 0px;
+      padding-left: 0px;
   }
