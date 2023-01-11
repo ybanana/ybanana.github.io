@@ -36,6 +36,17 @@ header_pages:
   - SwedishLearning_Ove.md
   - thoughts.md
 
-# Old jekyll-paginate pagination logic
-paginate: 5
-paginate_path: "/legacy/page:3/"
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+# Produces a cleaner folder structure when using categories
+permalink: /:year/:month/:title.html
+
