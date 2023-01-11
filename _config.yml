@@ -36,6 +36,8 @@ header_pages:
   - SwedishLearning_Ove.md
   - thoughts.md
 
+gems:
+  - jekyll-paginate-v2
 
 # Pagination Settings
 pagination:
