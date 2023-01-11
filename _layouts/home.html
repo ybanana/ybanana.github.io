@@ -11,6 +11,9 @@ pagination:
 
   {{ content }}
 
+  {% for post in paginator.posts %}
+    <h1>{{ post.title }}</h1>
+  {% endfor %}
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
@@ -40,6 +43,7 @@ pagination:
       {%- endfor -%}
     </ul>
 
+    <!--
     {% if site.paginate %}
       <div class="pager">
         <ul class="pagination">
@@ -57,6 +61,23 @@ pagination:
         </ul>
       </div>
     {%- endif %}
+    //-->
+
+  {% if paginator.total_pages > 1 %}
+  <ul>
+    {% if paginator.previous_page %}
+    <li>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+    </li>
+    {% endif %}
+    </ul>
+  {% endif %}
+
 
   {%- endif -%}
 
