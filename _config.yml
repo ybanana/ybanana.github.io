@@ -36,6 +36,14 @@ header_pages:
   - SwedishLearning_Ove.md
   - thoughts.md
 
+group: jekyll_plugins do
+  gem "jekyll-paginate-v2"
+  gem "jekyll-feed"
+end
+
+gems:
+  - jekyll-paginate-v2
+
 # Pagination Settings
 pagination:
   enabled: true
@@ -46,3 +54,6 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
+
+# Produces a cleaner folder structure when using categories
+permalink: /:year/:month/:title.html
