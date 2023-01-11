@@ -38,4 +38,4 @@ header_pages:
 
 # Old jekyll-paginate pagination logic
 paginate: 5
-paginate_path: "/legacy/page:num/"
+paginate_path: "/legacy/page:3/"
