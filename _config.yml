@@ -29,7 +29,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# paginate: 5
+paginate: 5
 
 header_pages:
   - archive.md
