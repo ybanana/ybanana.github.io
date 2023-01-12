@@ -1,1 +1,1 @@
-### Some thoughts
+Some thoughts
