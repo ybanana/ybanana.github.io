@@ -1,3 +1,8 @@
+---
+layout: page
+title: Swedish Novels
+---
+
 ### En man som heter Ove
 
 > Han är typen av man **som** pekar på folk **han** inte gillar.
