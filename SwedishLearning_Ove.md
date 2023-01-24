@@ -23,3 +23,26 @@ title: Swedish Novels
 > Expediten, ung man med enkelsiffrigt BMI, ser obekväm ut. Kämpar helt uppenbart mot impulsen att genast ta kartongen ifrån Ove.
 > - Han ser obekväm ut.
 > - Kämpar mot impulsen att ta kartognen ifrån Ove.
+
+### Folk med ångest
+
+##### En trappuppgång full av poliser på väg **att** storma en lägenhet.
+- på väg att
+    - på väg hem?
+    - på väg till skolan?
+    - på väg var vi ska möt?
+- storma en lägenhet
+
+##### Det var enkelt **att** hamna här, mycket enklare **än** man kanske tror.
+- Det var enkelt att
+- hamna här
+    - hamna till skolan?
+- mycket enklare än
+- man kanske tror
+
+##### Det här är en historia om många saker, men allra mest om idioter.
+- Det är en historia om
+- många saker
+- allra mest
+
+##### 
