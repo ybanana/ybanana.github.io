@@ -44,6 +44,8 @@ title: Swedish Novels
 
 ### Folk med ångest
 
+#### Kapitel 1
+
 ##### En trappuppgång full av poliser på väg **att** storma en lägenhet.
 - på väg att
     - på väg hem?
@@ -63,4 +65,34 @@ title: Swedish Novels
 - många saker
 - allra mest
 
-##### 
+#### Kapitel 2
+- För tio år sedan stod en man på en bro.
+    - för tio år sedan
+    - stod på en bro
+
+-  Den här historien handlar inte om den mannen.
+    - Den här historien = This story
+    - handlar om
+        - boken handlar om indianer = the book is about Indians.
+    
+- Du behöver alltså inte tänka på honom just nu.
+    - du behöver inte = you don't need to 
+    - tänka på = think about
+
+- Ja, nu kan du förstås inte sluta tänka på honom, det är som att säga "tänk inte på kakor", nu tänker du på kakor. 
+    - du kan inte sluta = you cann't stop/hlep
+    - det är som att säga =  it's like to say
+
+- Du behöver bara veta att för tio år sedan stod en man på en bro.
+    - du behöver bara veta att = you just need to know that...
+
+- Högst upp på räcket, långt ovanför vattnet, i slutet av sitt liv.
+    - högst = highest
+        - hög = high
+    - långt = far
+        - lång = long
+    - i slutet av = at the end of...
+
+- Tänk på något trevligare.
+    - något trevligare = something nicer.
+        - säga något mer = say something more
