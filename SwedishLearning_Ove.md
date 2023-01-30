@@ -24,6 +24,24 @@ title: Swedish Novels
 > - Han ser obekväm ut.
 > - Kämpar mot impulsen att ta kartognen ifrån Ove.
 
+- kliar
+    - Expediten kliar sig i hårbotten.
+    - Expediten kliar sig i hakan.
+    - Expediten kliar sina handflator på...
+    - Expediten kliar handflatorna igen.
+
+- Expediten nickar. Men blir sedan tveksam och skakar istället snabbt på huvudet.
+    - nickar
+    - blir tveksam
+        - Ove tittar på honom med blank blick. Lufsen ser lite mer **tveksam** ut.
+    - skakar på huvudet
+    - snabbt
+        - Expediten nickar **snabbt**.
+    - istället
+        - Då tycker jag att du till exempel ska köpa en Mac-Book **istället**.
+
+##### 
+
 ### Folk med ångest
 
 ##### En trappuppgång full av poliser på väg **att** storma en lägenhet.
