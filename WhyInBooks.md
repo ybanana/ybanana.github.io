@@ -15,3 +15,9 @@ title: Questions while reading a book
     - Why describe Adam call his Mom till morning?
     - In the flashback, why say the orange rolled out of the tray, and Adam tried to ignore the missing.
     - Why 'I' get to the Adam's dining table with his girlfriend? To remind her of his history of abuse to others.
+
+### The body keeps the score by Van der 
+- In terms of abuse or neglect kids, I was fascinated by,
+    - How does a caregiver neglecting kid affect kid's mind growth?
+    - How does parenting in a neglected way affect the kid's sense of self?
+    - How cure an adult as he/she had the neglected parenting in his/her early age?
