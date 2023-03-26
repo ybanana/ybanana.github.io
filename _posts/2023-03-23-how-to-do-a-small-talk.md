@@ -1,0 +1,3 @@
+#### Small talk is easy and difficult
+
+Coffee is a mystery and charming to wave over to me. I didn't bear to have a mug of it. In the office, I got used to taking a mug to the place with a row of coffee metal containers, like the hedge beside the house. In front of them, I turned on and saw the coffee flowing into my mug, but the flow grew smaller and smaller till a halt. 'Excuse me.' I said to servant, looking at his back and waiting his turn. He turned and replied 'What's your excuse?' Something odd 
